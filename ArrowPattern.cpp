@@ -54,4 +54,5 @@ int main()
         cout << "\n";
         i = i - 1;
     }
+    return 0;
 }
