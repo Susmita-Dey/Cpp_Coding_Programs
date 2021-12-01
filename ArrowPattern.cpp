@@ -1,10 +1,13 @@
 /* Printing Arrow Pattern Using Stars */
 
 #include <iostream>
+#include<windows.h>
 using namespace std;
 
 int main()
 {
+    system("cls");
+    system("Color 0A");
     int n, i, n1, n2, spaces, j;
     cout << "Enter a number: ";
     cin >> n;
