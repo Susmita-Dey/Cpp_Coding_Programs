@@ -42,12 +42,10 @@ void ChristmasTreePattern(int width, int height)
 
 int main()
 {
-	int width, height, i, j, k, n = 1;
-
-	cout << "Please Enter Christmas Tree Width & Height = ";
+	int width, height;
+	cout << "Enter Christmas Tree Width & Height = ";
 	cin >> width >> height;
 
-	int space = width * height;
 	ChristmasTreePattern(width, height);
 	cout << "\n";
 	return 0;
